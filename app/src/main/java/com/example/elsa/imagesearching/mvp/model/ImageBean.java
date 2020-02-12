@@ -6,9 +6,9 @@ import java.io.Serializable;
 import java.util.List;
 
 public class ImageBean implements Serializable {
-    private String title;
-    private String id;
-    private List<ImageDetailBean> images;
+    private String title; // image title
+    private String id; // image id
+    private List<ImageDetailBean> images; // the set of images
 
     public String getTitle() {
         return title;
