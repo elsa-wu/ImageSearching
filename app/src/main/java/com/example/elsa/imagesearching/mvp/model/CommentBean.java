@@ -3,8 +3,8 @@ package com.example.elsa.imagesearching.mvp.model;
 
 
 public class CommentBean {
-    private String id;
-    private String comment;
+    private String id; // comment id
+    private String comment; // comment content
 
     public CommentBean(String id, String comment) {
         this.id = id;
